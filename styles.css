@@ -48,5 +48,25 @@ body::before {
 .slide.active {
     opacity: 1;
 }
-
+.arrow {
+    position: fixed;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid orange;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+    
+}
+.arrow:focus {
+    outline: 0;
+}
+.left-arrow {
+    left: calc(15vh - 65px);
+}
+.right-arrow {
+    right: calc(15vh - 65px);
+}
 
